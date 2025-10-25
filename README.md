@@ -53,7 +53,6 @@ To capture these, this model integrates multiple transformations and statistical
 ```bash
 git clone https://github.com/muhammadhuzaifa023/Brain-Tumor-Classification-using-FFT-and-DWT
 cd Brain-Tumor-Classification
-
 ### Step 2️⃣: Install Dependencies
 ```bash
 pip install numpy pandas opencv-python pywavelets scikit-learn scikit-image matplotlib seaborn torch torchvision
