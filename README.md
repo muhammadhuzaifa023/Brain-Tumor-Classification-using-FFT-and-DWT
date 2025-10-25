@@ -22,3 +22,39 @@ To capture these, this model integrates multiple transformations and statistical
 - **GLCM (Gray Level Co-occurrence Matrix):** Measures texture contrast and correlation.
 - **LBP (Local Binary Pattern):** Detects micro-textures and edges.
 - **CLAHE (Contrast Limited Adaptive Histogram Equalization):** Enhances image contrast for better feature extraction.
+
+
+## ⚙️ Technologies Used
+
+| Category | Tools / Libraries |
+|-----------|-------------------|
+| Language | Python 3.8+ |
+| Image Processing | OpenCV, scikit-image, PyWavelets |
+| Data Handling | NumPy, Pandas |
+| Visualization | Matplotlib, Seaborn |
+| Machine Learning | scikit-learn |
+| Deep Learning | PyTorch |
+
+## 🧬 Model Evaluation
+
+| Model | Features Used | Accuracy |
+|--------|----------------|-----------|
+| Logistic Regression | DWT + FFT | 68.7% |
+| Decision Tree | DWT + FFT | 83.6% |
+| Random Forest | DWT + FFT + GLCM | 88.5% |
+| PyTorch MLP | DWT + FFT + GLCM + LBP | **81.0%** |
+
+### 📈 Classification Report (PyTorch MLP)
+              precision    recall  f1-score   support
+glioma_tumor       0.92      0.62      0.74
+
+## 🧾 How to Run
+### Step 1️⃣: Clone the Repository
+```bash
+git clone https://github.com/muhammadhuzaifa023/Brain-Tumor-Classification-using-FFT-and-DWT
+cd Brain-Tumor-Classification
+
+### Step 2️⃣: Install Dependencies
+pip install numpy pandas opencv-python pywavelets scikit-learn scikit-image matplotlib seaborn torch torchvision
+
+
