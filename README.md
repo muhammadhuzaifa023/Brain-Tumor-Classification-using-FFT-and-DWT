@@ -52,9 +52,10 @@ glioma_tumor       0.92      0.62      0.74
 ### Step 1️⃣: Clone the Repository
 ```bash
 git clone https://github.com/muhammadhuzaifa023/Brain-Tumor-Classification-using-FFT-and-DWT
-cd Brain-Tumor-Classification
+cd Brain-Tumor-Classification```
 
 ### Step 2️⃣: Install Dependencies
+```bash
 pip install numpy pandas opencv-python pywavelets scikit-learn scikit-image matplotlib seaborn torch torchvision
 
 
