@@ -46,7 +46,7 @@ To capture these, this model integrates multiple transformations and statistical
 
 ### 📈 Classification Report (PyTorch MLP)
               precision    recall  f1-score   support
-glioma_tumor       0.92      0.62      0.74
+  glioma_tumor       0.92      0.62      0.74
 
 ## 🧾 How to Run
 ### Step 1️⃣: Clone the Repository
