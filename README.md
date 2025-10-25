@@ -44,9 +44,7 @@ To capture these, this model integrates multiple transformations and statistical
 | Random Forest | DWT + FFT + GLCM | 88.5% |
 | PyTorch MLP | DWT + FFT + GLCM + LBP | **81.0%** |
 
-### 📈 Classification Report (PyTorch MLP)
-              precision    recall  f1-score   support
-  glioma_tumor       0.92      0.62      0.74
+
 
 ## 🧾 How to Run
 ### Step 1️⃣: Clone the Repository
